@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(202, 221, 220);
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(176, 216, 214);
+  border-bottom: 4px solid rgb(39, 58, 57);
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.btn-config {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.board-size-content {
+  display: flex;
+  margin: 10px;
+}
+
+.board-size {
+  font-size: 30px;
+  line-height: 40px;
+  width: 150px;
+}
+
+.generate-board {
+  background-color: rgb(74, 194, 74);
+  color: white;
+  font-weight: 900;
+}
+
+.clear-board {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  font-weight: 900;
+  line-height: 40px;
+  margin-bottom: 10px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.color {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.color1 {
+  background-color: black;
+}
+
+.color2 {
+  background-color: red;
+}
+
+.color3 {
+  background-color: green;
+}
+
+.color4 {
+  background-color: blue;
+}
+
+.color5 {
+  background-color: orange;
+}
+
+.color6 {
+  background-color: yellow;
+}
+
+.pixel-board {
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  height: 40px;
+  width: 40px;
+}
